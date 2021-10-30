@@ -1,0 +1,101 @@
+{
+  "name": "web",
+  "hash": "a03fa41c9359a8f315a3",
+  "publicPath": "/",
+  "outputPath": "D:\\Code\\node-js-getting-started\\build",
+  "assetsByChunkName": {
+    "main": [
+      "static/js/main.bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "static/js/vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e.bundle.js",
+      "size": 1166913,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "static/js/vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e.bundle.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/js/main.bundle.js",
+      "size": 9824,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "static/js/main.bundle.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "static/js/vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e.bundle.js"
+        },
+        {
+          "name": "static/js/main.bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "static/js/main.bundle.js"
+      ]
+    },
+    {
+      "id": "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e",
+      "files": [
+        "static/js/vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-dom_index_js--96f86e.bundle.js"
+      ]
+    }
+  ]
+}
